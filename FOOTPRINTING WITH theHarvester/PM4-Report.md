@@ -88,16 +88,6 @@ $ theHarvester -d microsoft.com -l 1000 -b baidu
 - `-b baidu` — use Baidu as the data source
 
 
-**Results from Baidu:**
-
-| Category | Findings |
-|---|---|
-| Target | microsoft.com |
-| Source | Baidu |
-| IPs Found | *(insert count/values from your output)* |
-| Emails Found | *(insert email addresses from your output, e.g., viva-noreply@microsoft.com)* |
-| Hosts Found | *(insert subdomains found, or "No hosts found")* |
-
 **Step 4: Save Output**
 
 Saved the terminal screenshot and also saved the output to a text file:
