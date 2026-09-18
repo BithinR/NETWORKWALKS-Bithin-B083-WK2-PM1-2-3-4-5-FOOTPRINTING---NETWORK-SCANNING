@@ -56,9 +56,8 @@ Two tasks were completed: one querying a single data source (Baidu) with a high 
 
 Opened a terminal window in Kali Linux. theHarvester is pre-installed and available directly from the terminal or the Kali applications menu.
 
-> 📸 **Screenshot:** `screenshots/task1-kali-menu-theharvester.png`
->
-> *(Insert screenshot of theHarvester being launched from the Kali Linux applications menu or terminal)*
+<img width="1777" height="1023" alt="Screenshot-theHarvester" src="https://github.com/user-attachments/assets/91950f50-5d30-440b-a9b5-cd4f4625a5fd" />
+
 
 **Step 2: Read the Usage Instructions**
 
@@ -76,9 +75,6 @@ Key flags confirmed:
 
 Available sources include: `baidu, bevigil, bitbucket, brave, bufferoverun, builtwith, censys, certspotter, chaos, commoncrawl, criminalip, crtsh, dehashed, dnsdumpster, duckduckgo, fofa, fullhunt, github-code, git, haveibeenpwned, hudsonrock, hunter, hunterhow, intelx, leakix, leaklookup, netlas, onyphe, otx, pentesttools, projectdiscovery, rapiddns, robtex, rocketreach, securityscorecard, security, subdomaincenter, subdomainfinderc99, thc, threatcrowd, tomba, urlscan, venacus, virustotal, waybackarchive, whoisxml, windvane, yahoo, zoomeye`
 
-> 📸 **Screenshot:** `screenshots/task1-theharvester-usage.png`
->
-> *(Insert screenshot of the terminal showing theHarvester's usage output with all available flags and supported sources)*
 
 **Step 3: Run theHarvester with Baidu**
 
@@ -91,9 +87,6 @@ $ theHarvester -d microsoft.com -l 1000 -b baidu
 - `-l 1000` — limit results to 1000
 - `-b baidu` — use Baidu as the data source
 
-> 📸 **Screenshot:** `screenshots/task1-theharvester-baidu-run.png`
->
-> *(Insert screenshot of the terminal showing theHarvester running with the Baidu source and the output results — emails found and hosts found sections)*
 
 **Results from Baidu:**
 
@@ -113,9 +106,8 @@ Saved the terminal screenshot and also saved the output to a text file:
 $ theHarvester -d microsoft.com -l 1000 -b baidu -f task1-baidu-output
 ```
 
-> 📸 **Screenshot:** `screenshots/task1-baidu-output-saved.png`
->
-> *(Insert screenshot confirming the output was saved to a file, or showing the saved file in the directory)*
+<img width="1477" height="707" alt="Screenshot-theHarvester-3" src="https://github.com/user-attachments/assets/429909fc-28e7-42cd-a584-2f33fb8995f8" />
+
 
 > **Note:** Results may differ slightly from the module guide because theHarvester's data sources update their algorithms and indexes regularly. The search methodology remains the same.
 
@@ -140,9 +132,6 @@ $ theHarvester -d microsoft.com -l 50 -b all
 - `-l 50` — limit results to 50 per source
 - `-b all` — query every available data source
 
-> 📸 **Screenshot:** `screenshots/task2-theharvester-all-sources-run.png`
->
-> *(Insert screenshot of the terminal showing theHarvester running with `-b all`, including the source-by-source output as it queries each one)*
 
 **Observed behavior:** Several sources returned "Missing API key" errors for premium services (bevigil, bitbucket, bufferoverun, builtwith, brave, etc.). This is expected — free sources returned results while paid API-gated sources were skipped.
 
@@ -165,9 +154,9 @@ Saved the terminal screenshot and output to a text file:
 $ theHarvester -d microsoft.com -l 50 -b all -f task2-all-sources-output
 ```
 
-> 📸 **Screenshot:** `screenshots/task2-all-sources-output-saved.png`
->
-> *(Insert screenshot of the completed output or saved file confirmation)*
+<img width="1557" height="1006" alt="Screenshot-theHarvester-1" src="https://github.com/user-attachments/assets/6ef740c7-d225-4945-9806-9fe4020cd4b4" />
+
+<img width="1381" height="1002" alt="Screenshot-theHarvester-2" src="https://github.com/user-attachments/assets/04555da4-a926-4f0d-9d01-d53c46fd5511" />
 
 ---
 
@@ -218,9 +207,6 @@ theHarvester was run against `microsoft.com` purely for educational purposes as 
   ```
 
 ---
-
-## 👤 Author
-
-**Emmanuel Bafi**
+Bithin Krishna Radhakrishnan**
 Cybersecurity Intern — Batch B082
 Networkwalks Cybersecurity Program | Week 2 | Project Module 4
