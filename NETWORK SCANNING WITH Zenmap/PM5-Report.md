@@ -167,13 +167,9 @@ ipconfig /all
 
 ## 📊 Summary of Results
 
-| Task | Question | Answer |
-|---|---|---|
-| Task 2 | Local IP / Subnet | *(insert your IP)* / 10.0.0.0/24 |
-| Task 4 | How many hosts live? | *(insert count)* hosts |
-| Task 5 | IP addresses of live hosts | *(list all IPs)* |
-| Task 6 | MAC addresses of live hosts | *(list all MACs)* |
-| Task 7 | Topology saved? | ✅ Yes — PDF saved to desktop |
+| Local IP / Subnet | *10.0.0.2* / 10.0.0.0/24 |
+| How many hosts live? | *3* hosts |
+| Topology saved? | ✅ Yes — PDF saved to desktop |
 
 ---
 
@@ -217,5 +213,5 @@ All scanning in this module was performed exclusively on the tester's own local 
 ## 👤 Author
 
 **Bithin Krishna Radhakrishnan**
-Cybersecurity Intern — Batch B082
+Cybersecurity Intern — Batch B083
 Networkwalks Cybersecurity Program | Week 2 | Project Module 5
