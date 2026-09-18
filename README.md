@@ -78,68 +78,29 @@ NETWORKWALKS-EMMANUEL-B082-WK2-FOOTPRINTING-RECON/
 ├── PM1-Multiple-Kali-Tools/
 │   ├── PM1-Report.md                  ← Full module report
 │   └── screenshots/
-│       ├── task1-whois.png
-│       ├── task2-whatweb.png
-│       ├── task3-nslookup.png
-│       ├── task4-curl-headers.png
-│       ├── task5-wafw00f.png
-│       └── task6-dnsrecon.png
+│      
 │
 ├── PM2-GHDB/
 │   ├── PM2-Report.md                  ← Full module report
 │   └── screenshots/
-│       ├── task1-ghdb-cam-search.png
-│       ├── task1-google-dork-search.png
-│       ├── task1-live-camera-feed.png
-│       ├── task1-camera-results-table.png
-│       ├── task2-google-dork-search.png
-│       ├── task2-open-directory-listing.png
-│       └── task2-ebook-results-table.png
+
 │
 ├── PM3-Maltego/
 │   ├── PM3-Report.md                  ← Full module report
 │   └── screenshots/
-│       ├── task1-maltego-download-page.png
-│       ├── task1-maltego-jre-install.png
-│       ├── task1-maltego-setup-complete.png
-│       ├── task1-maltego-activation-options.png
-│       ├── task1-maltego-create-account.png
-│       ├── task1-maltego-auth-complete.png
-│       ├── task1-maltego-ready.png
-│       ├── task2-domain-entity-drag.png
-│       ├── task2-domain-name-set.png
-│       ├── task2-run-transforms-menu.png
-│       ├── task2-email-results-graph.png
-│       └── task2-transform-output-log.png
+│ 
 │
 ├── PM4-theHarvester/
 │   ├── PM4-Report.md                  ← Full module report
 │   └── screenshots/
-│       ├── task1-kali-menu-theharvester.png
-│       ├── task1-theharvester-usage.png
-│       ├── task1-theharvester-baidu-run.png
-│       ├── task1-baidu-output-saved.png
-│       ├── task2-theharvester-all-sources-run.png
-│       └── task2-all-sources-output-saved.png
+│   
 │
 └── PM5-Zenmap/
     ├── PM5-Report.md                  ← Full module report
     ├── topology/
     │   └── network-topology.pdf       ← Saved Zenmap topology
     └── screenshots/
-        ├── task1-nmap-download-page.png
-        ├── task1-nmap-components-selection.png
-        ├── task1-npcap-install.png
-        ├── task1-zenmap-desktop-shortcut.png
-        ├── task2-ipconfig-output.png
-        ├── task3-zenmap-ping-scan-running.png
-        ├── task3-zenmap-nmap-output.png
-        ├── task4-live-hosts-panel.png
-        ├── task6-nmap-output-mac-addresses.png
-        ├── task6-ipconfig-all-mac.png
-        ├── task7-zenmap-topology-view.png
-        ├── task7-save-topology-pdf-dialog.png
-        └── task7-topology-pdf-on-desktop.png
+      
 ```
 
 ---
@@ -248,11 +209,11 @@ The same tools attackers use are used by defenders. Running these tools on your 
 
 ## 👤 Author
 
-**Emmanuel Bafi**
+**Bithin Krishna Radhakrishnan**
 Cybersecurity Intern — Batch B082
 Networkwalks Cybersecurity Internship Program
 
-LinkedIn: *(add your LinkedIn profile link)*
-GitHub: *(add your GitHub profile link)*
+LinkedIn: *www.linkedin.com/in/bkr95*
+GitHub: *https://github.com/BithinR*
 
 **Program:** Cybersecurity at Networkwalks | **Week:** 02 | **Project:** Footprinting, Reconnaissance & Network Scanning
