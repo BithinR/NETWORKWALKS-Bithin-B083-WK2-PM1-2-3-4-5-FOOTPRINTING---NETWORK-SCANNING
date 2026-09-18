@@ -58,17 +58,8 @@ Because all data is retrieved directly from Google's index, the target is never 
 4. Pasted each dork into `google.com` and searched.
 5. Opened each result link, verified it showed a live camera feed, and recorded it.
 
-> 📸 **Screenshot:** `screenshots/task1-ghdb-cam-search.png`
->
-> *(Insert screenshot of the GHDB website showing results for the "cam" search)*
+<img width="942" height="460" alt="Screenshot 2026-09-16 222203" src="https://github.com/user-attachments/assets/10cf6dd1-59d9-42bb-bc36-84fa9192523d" />
 
-> 📸 **Screenshot:** `screenshots/task1-google-dork-search.png`
->
-> *(Insert screenshot of Google search results for the camera dork)*
-
-> 📸 **Screenshot:** `screenshots/task1-live-camera-feed.png`
->
-> *(Insert screenshot of one verified live exposed camera feed in the browser)*
 
 **Dorks used (examples):**
 
@@ -84,6 +75,7 @@ intitle:"index of" "/DCIM/camera"
 intitle:ip camera login page
 intitle:"Microseven M7CAM IP Camera"
 ```
+<img width="614" height="391" alt="Screenshot 2026-09-18 092421" src="https://github.com/user-attachments/assets/59c7e085-c2b5-4b0b-b7a3-7d392b7a5b33" />
 
 **Results Table:**
 
@@ -100,9 +92,6 @@ intitle:"Microseven M7CAM IP Camera"
 | 9 | *(insert verified URL)* | `intitle:ip camera login page` | --- |
 | 10 | *(insert verified URL)* | `intitle:"Microseven M7CAM IP Camera"` | --- |
 
-> 📸 **Screenshot:** `screenshots/task1-camera-results-table.png`
->
-> *(Insert screenshot showing your completed results table with verified camera links)*
 
 ---
 
@@ -121,13 +110,9 @@ intitle:index.of "parent directory" mathematics pdf
 2. Opened results one by one and verified each listing contained actual mathematics PDF files.
 3. Recorded the link and relevant dork for each verified result.
 
-> 📸 **Screenshot:** `screenshots/task2-google-dork-search.png`
->
-> *(Insert screenshot of the Google search results for the mathematics PDF dork)*
 
-> 📸 **Screenshot:** `screenshots/task2-open-directory-listing.png`
->
-> *(Insert screenshot of a verified open directory page showing mathematics PDF files)*
+<img width="647" height="404" alt="Screenshot 2026-09-18 092533" src="https://github.com/user-attachments/assets/dc96335d-d5fe-4e81-bc39-7d8773ba58cc" />
+
 
 **Results Table:**
 
@@ -143,10 +128,6 @@ intitle:index.of "parent directory" mathematics pdf
 | 8 | *(insert verified URL)* | `intitle:"Index of" calculus pdf` | --- |
 | 9 | *(insert verified URL)* | `intitle:"Index of" calculus pdf` | --- |
 | 10 | *(insert verified URL)* | `intitle:index.of "parent directory" mathematics pdf` | --- |
-
-> 📸 **Screenshot:** `screenshots/task2-ebook-results-table.png`
->
-> *(Insert screenshot of your completed results table with all 10 verified eBook listing links)*
 
 ---
 
@@ -185,6 +166,6 @@ All activities in this module were performed in accordance with GHDB's intended 
 
 ## 👤 Author
 
-**Emmanuel Bafi**
+**Bithin Krishna Radhakrishnan**
 Cybersecurity Intern — Batch B082
 Networkwalks Cybersecurity Program | Week 2 | Project Module 2
