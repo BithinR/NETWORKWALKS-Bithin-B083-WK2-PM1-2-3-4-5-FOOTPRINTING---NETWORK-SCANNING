@@ -59,49 +59,29 @@ This reconnaissance was performed under the Networkwalks Cybersecurity Internshi
 
 Opened `https://maltego.com`, navigated to **Resources → Download Maltego**, selected **Windows (.exe + Java x64)** and downloaded the installer.
 
-> 📸 **Screenshot:** `screenshots/task1-maltego-download-page.png`
->
-> *(Insert screenshot of the Maltego download page showing the Windows installer option selected)*
+<img width="900" height="461" alt="Screenshot-Maltego-download" src="https://github.com/user-attachments/assets/58ed0e26-06ad-45b0-b45b-b215b99f8e84" />
+
 
 **Step 2: Run the Setup**
 
 Ran the installer as Administrator. Maltego prompted to install the Java Runtime Environment (Eclipse Temurin JRE 17) as a prerequisite, which was accepted and installed automatically before Maltego itself installed.
 
-> 📸 **Screenshot:** `screenshots/task1-maltego-jre-install.png`
->
-> *(Insert screenshot of the JRE installation dialog during the Maltego setup)*
-
-> 📸 **Screenshot:** `screenshots/task1-maltego-setup-complete.png`
->
-> *(Insert screenshot of the "Completing Maltego Setup" dialog with the Finish button)*
-
 **Step 3: Launch & Activate Maltego**
 
 Right-clicked the Maltego desktop shortcut and selected **Run as administrator**. On the Welcome screen, selected **Maltego ID** activation and **Online Activation (Default)**.
 
-> 📸 **Screenshot:** `screenshots/task1-maltego-activation-options.png`
->
-> *(Insert screenshot of the Maltego activation screen showing "Maltego ID" selected)*
 
 **Step 4: Create a Free Maltego Account**
 
 Clicked **Browser Login** which opened the Maltego login portal. Selected **"No Maltego Account? Create ID"** and filled in the registration form with name and email. Completed email verification.
 
-> 📸 **Screenshot:** `screenshots/task1-maltego-create-account.png`
->
-> *(Insert screenshot of the "Create Maltego ID" registration form in the browser)*
-
-> 📸 **Screenshot:** `screenshots/task1-maltego-auth-complete.png`
->
-> *(Insert screenshot showing "Authentication complete" in the browser)*
 
 **Step 5: Complete Configuration**
 
 Returned to Maltego. Accepted the EULA, kept default data sources (Utilities + Maltego Local Transform Server), accepted default browser and Privacy Mode: Normal settings. Maltego completed configuration and was ready.
 
-> 📸 **Screenshot:** `screenshots/task1-maltego-ready.png`
->
-> *(Insert screenshot of the fully loaded Maltego Graph desktop application, showing it is ready to use)*
+<img width="860" height="472" alt="Screenshot-Maltego-1" src="https://github.com/user-attachments/assets/c37417c0-4705-437d-9bba-b53e43a310d7" />
+
 
 ---
 
@@ -113,17 +93,13 @@ Returned to Maltego. Accepted the EULA, kept default data sources (Utilities + M
 2. In the **Entity Palette** on the left, searched for **"Domain"**.
 3. Dragged the **Domain** entity onto the main graph canvas.
 
-> 📸 **Screenshot:** `screenshots/task2-domain-entity-drag.png`
->
-> *(Insert screenshot showing the Domain entity being dragged from the Entity Palette onto the canvas)*
 
 **Step 7: Set Target Domain**
 
 Double-clicked the Domain entity on the canvas to open its properties. Changed the **Domain Name** field to `networkwalks.com` and clicked OK.
 
-> 📸 **Screenshot:** `screenshots/task2-domain-name-set.png`
->
-> *(Insert screenshot of the entity properties dialog showing "networkwalks.com" entered as the domain name)*
+<img width="860" height="447" alt="Screenshot-Maltego-2" src="https://github.com/user-attachments/assets/925c3399-c943-49f4-9d36-dcd08c3b1de3" />
+
 
 **Step 8: Run Email Transforms**
 
@@ -133,9 +109,8 @@ Right-clicked on the `networkwalks.com` domain entity. In the **Run Transforms**
 - `[Utilities] To Email Addresses [PGP]`
 - `[Utilities] To Email Addresses [Search Engine]`
 
-> 📸 **Screenshot:** `screenshots/task2-run-transforms-menu.png`
->
-> *(Insert screenshot of the Run Transforms context menu with the email transforms visible and selected)*
+<img width="839" height="436" alt="Screenshot-Maltego-3" src="https://github.com/user-attachments/assets/33750435-f37d-4937-83ee-3e527eeabaff" />
+
 
 **Step 9: Results**
 
@@ -148,13 +123,9 @@ After the transforms completed, Maltego returned the discovered email addresses 
 | 1 | info@networkwalks.com | \[Utilities\] To Email Addresses (Search Engine) |
 | *(add more)* | *(add if discovered)* | *(add transform name)* |
 
-> 📸 **Screenshot:** `screenshots/task2-email-results-graph.png`
->
-> *(Insert screenshot of the Maltego graph showing networkwalks.com connected to the discovered email address entities)*
+<img width="803" height="417" alt="Screenshot-Maltego-4" src="https://github.com/user-attachments/assets/6ec1c51b-32a6-4c5b-a44f-43cb8bdf3767" />
 
-> 📸 **Screenshot:** `screenshots/task2-transform-output-log.png`
->
-> *(Insert screenshot of the Transform Output log at the bottom of Maltego showing the completed transform and results)*
+<img width="950" height="488" alt="Screenshot-Maltego-5" src="https://github.com/user-attachments/assets/4a218314-78d4-49eb-88c1-3decd41e8d5b" />
 
 ---
 
@@ -204,6 +175,6 @@ All Maltego transforms in this module were run against `networkwalks.com` only, 
 
 ## 👤 Author
 
-**Emmanuel Bafi**
+**Bithin Krishna Radhakrishnan**
 Cybersecurity Intern — Batch B082
 Networkwalks Cybersecurity Program | Week 2 | Project Module 3
