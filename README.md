@@ -2,7 +2,7 @@
 
 # 🔐 Footprinting, Reconnaissance & Network Scanning
 
-**Networkwalks Cybersecurity Internship — Batch B082 | Week 2**
+**Networkwalks Cybersecurity Internship — Batch B083 | Week 2**
 
 </div>
 
@@ -20,7 +20,7 @@
 
 ## 📌 Project Overview
 
-This repository contains the complete Week 2 project work for the **Networkwalks Cybersecurity Internship (Batch B082)**. The focus of Week 2 is **footprinting, passive reconnaissance, and network scanning** — the first two phases of a penetration test.
+This repository contains the complete Week 2 project work for the **Networkwalks Cybersecurity Internship (Batch B083)**. The focus of Week 2 is **footprinting, passive reconnaissance, and network scanning** — the first two phases of a penetration test.
 
 Five project modules were completed, covering a range of industry-standard tools and techniques used by cybersecurity professionals to gather intelligence about a target before any active testing begins. All activities were performed strictly within the scope of a written Letter of Authorization issued by Networkwalks.
 
@@ -38,9 +38,9 @@ Five project modules were completed, covering a range of industry-standard tools
 
 ## 🛡️ Authorization
 
-All active reconnaissance and scanning tasks in this project were performed under the **Networkwalks Letter of Authorization** (Ref: NW-LOA-B082-017), issued by Networkwalks Managing Director Sonia John and acknowledged by intern Emmanuel Bafi.
+All active reconnaissance and scanning tasks in this project were performed under the **Networkwalks Letter of Authorization** (Ref: NW-LOA-B082-017), issued by Networkwalks Managing Director Sonia John and acknowledged by intern Bithin Krishna Radhakrishnan.
 
-- **Authorization period:** 17 August 2026 — 24 August 2026
+- **Authorization period:**  12 September 2026 — 18 September 2026
 - **Authorized scope:**
   - `networkwalks.com` — passive footprinting and DNS reconnaissance
   - Tester's own local area network (LAN) — network scanning only
