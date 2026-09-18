@@ -1,5 +1,3 @@
-<img width="268" height="392" alt="image" src="https://github.com/user-attachments/assets/18ece9cd-e105-47b9-932e-5b42adbf201b" />
-
 <div align="center">
 
 # 🔐 Footprinting & Reconnaissance with Multiple Kali Tools
