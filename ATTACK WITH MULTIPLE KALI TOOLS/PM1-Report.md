@@ -1,3 +1,5 @@
+<img width="268" height="392" alt="image" src="https://github.com/user-attachments/assets/18ece9cd-e105-47b9-932e-5b42adbf201b" />
+
 <div align="center">
 
 # 🔐 Footprinting & Reconnaissance with Multiple Kali Tools
@@ -81,9 +83,8 @@ $ whois networkwalks.com
 
 **Why attackers use this:** whois reveals the hosting provider (HostGator), registration timeline, and abuse contacts — all useful for social engineering and attack planning.
 
-> 📸 **Screenshot:** `screenshots/task1-whois.png`
->
-> *(Insert screenshot of the terminal showing the full whois output for networkwalks.com)*
+<img width="1571" height="1010" alt="Screenshot-whois" src="https://github.com/user-attachments/assets/0bd1b729-e756-458b-95db-6cb15b4f7f77" />
+
 
 ---
 
@@ -111,9 +112,7 @@ $ whatweb networkwalks.com
 
 **Why attackers use this:** Exact software versions allow attackers to search CVE databases for known exploits. The leaked server IP and email also expand the attack surface.
 
-> 📸 **Screenshot:** `screenshots/task2-whatweb.png`
->
-> *(Insert screenshot of the terminal showing the whatweb output with all detected technologies)*
+<img width="1915" height="232" alt="Screenshot-whatweb" src="https://github.com/user-attachments/assets/f099c54b-b042-480a-80d2-8655274d57fc" />
 
 ---
 
@@ -136,9 +135,8 @@ $ nslookup networkwalks.com
 
 **Why attackers use this:** Knowing the real IP lets an attacker scan the server directly and enumerate other sites hosted on the same IP to map the infrastructure.
 
-> 📸 **Screenshot:** `screenshots/task3-nslookup.png`
->
-> *(Insert screenshot of the terminal showing the nslookup result with the resolved IP address)*
+<img width="976" height="150" alt="Screenshot-NSLookup" src="https://github.com/user-attachments/assets/faadbcd0-4945-4318-a65e-a7ed8fd13694" />
+
 
 ---
 
@@ -165,9 +163,8 @@ $ curl -I https://networkwalks.com
 
 **Why attackers use this:** HTTP headers leak the web server, caching stack, and hidden endpoints such as the WordPress REST API (`/wp-json/`). These reveal entry points without loading the full page.
 
-> 📸 **Screenshot:** `screenshots/task4-curl-headers.png`
->
-> *(Insert screenshot of the terminal showing the curl -I output with all response headers)*
+<img width="1917" height="472" alt="Screenshot-curl" src="https://github.com/user-attachments/assets/7cf7364b-08ec-40c3-bd5d-9cbcf3d2a071" />
+
 
 ---
 
@@ -191,9 +188,8 @@ $ wafw00f networkwalks.com
 
 **Why attackers use this:** Knowing a WAF is in place shapes the entire attack strategy. Naive exploitation attempts will be blocked or logged, so an attacker must adapt their technique or attempt WAF bypass methods.
 
-> 📸 **Screenshot:** `screenshots/task5-wafw00f.png`
->
-> *(Insert screenshot of the terminal showing the wafw00f output confirming ModSecurity detection)*
+<img width="1278" height="417" alt="Screenshot-wafw00f" src="https://github.com/user-attachments/assets/92211c8b-34c4-4182-b745-6463f1e6b044" />
+
 
 ---
 
@@ -222,9 +218,8 @@ $ dnsrecon -d networkwalks.com
 
 **Why attackers use this:** dnsrecon maps the target's entire DNS footprint. Mail servers, DNS software version, SPF policy, and cPanel service records each represent a potential foothold or attack vector.
 
-> 📸 **Screenshot:** `screenshots/task6-dnsrecon.png`
->
-> *(Insert screenshot of the terminal showing the full dnsrecon output with all enumerated records)*
+<img width="1611" height="612" alt="Screenshot-dnsrecon" src="https://github.com/user-attachments/assets/7fd3aa18-835c-42e0-8eeb-7cf4674f1229" />
+
 
 ---
 
@@ -279,6 +274,6 @@ This module was performed strictly within the scope of the Letter of Authorizati
 
 ## 👤 Author
 
-**Emmanuel Bafi**
+**Bithin Krishna Radhakrishnan**
 Cybersecurity Intern — Batch B082
 Networkwalks Cybersecurity Program | Week 2 | Project Module 1
