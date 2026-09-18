@@ -1,4 +1,4 @@
-<div align="center">
+<img width="1460" height="605" alt="Nmap - Zenmap GUI" src="https://github.com/user-attachments/assets/7323afa6-e0f9-4e09-86c8-9db59a69b21b" /><div align="center">
 
 # 🔐 Network Scanning with Zenmap
 
@@ -65,29 +65,16 @@ Network scanning was performed exclusively on the tester's own local virtual lab
 
 Opened `https://nmap.org/download.html` and downloaded the latest stable Windows self-installer: `nmap-7.91-setup.exe`.
 
-> 📸 **Screenshot:** `screenshots/task1-nmap-download-page.png`
->
-> *(Insert screenshot of the nmap.org download page with the Windows installer highlighted)*
-
 **Install:**
 
 Ran the installer, accepted the license agreement, left all components checked (including **Zenmap GUI Frontend** and **Npcap**), chose the default installation folder, and clicked **Install**.
-
-> 📸 **Screenshot:** `screenshots/task1-nmap-components-selection.png`
->
-> *(Insert screenshot of the Nmap setup component selection screen showing all options checked)*
-
-> 📸 **Screenshot:** `screenshots/task1-npcap-install.png`
->
-> *(Insert screenshot of the Npcap installation options dialog)*
 
 **Completion:**
 
 Installation completed successfully. Zenmap shortcut appeared on the desktop.
 
-> 📸 **Screenshot:** `screenshots/task1-zenmap-desktop-shortcut.png`
->
-> *(Insert screenshot of the Windows desktop showing the Zenmap and Nmap shortcut icons after installation)*
+<img width="404" height="347" alt="Screenshot 2026-09-18 093820" src="https://github.com/user-attachments/assets/d181f55f-45ff-44e8-8f87-261655054ab4" />
+
 
 ---
 
@@ -110,9 +97,8 @@ This revealed the local IP address and subnet mask of the host PC.
 | Default Gateway | 10.0.0.1 |
 | LAN Subnet | 10.0.0.0/24 |
 
-> 📸 **Screenshot:** `screenshots/task2-ipconfig-output.png`
->
-> *(Insert screenshot of the Command Prompt showing the ipconfig output with your IP address and subnet mask highlighted)*
+<img width="1307" height="372" alt="Screenshot-ipconfig" src="https://github.com/user-attachments/assets/f03ba4c8-8820-46d3-b668-2cbf4119cebc" />
+
 
 ---
 
@@ -128,13 +114,7 @@ Opened **Zenmap**, entered the following settings and clicked **Scan**:
 
 Zenmap executed the ping scan across all 256 addresses in the subnet and reported which hosts responded.
 
-> 📸 **Screenshot:** `screenshots/task3-zenmap-ping-scan-running.png`
->
-> *(Insert screenshot of Zenmap with the target and Ping scan profile set, either mid-scan or showing results)*
-
-> 📸 **Screenshot:** `screenshots/task3-zenmap-nmap-output.png`
->
-> *(Insert screenshot of the Nmap Output tab showing the full scan results text, including the MAC addresses and "Nmap done" line)*
+<img width="1886" height="822" alt="Screenshot-Zenmap-1" src="https://github.com/user-attachments/assets/09d4781d-5707-4409-9d9a-c79be95f9934" />
 
 ---
 
@@ -142,13 +122,9 @@ Zenmap executed the ping scan across all 256 addresses in the subnet and reporte
 
 After the scan completed, Zenmap listed all live hosts in the **Hosts** panel on the left.
 
-**Answer:** **_(insert your count)_ hosts** are live in the subnet (including the scanning machine itself).
+**Answer:** 3
 
-*(In the lab example: 4 hosts were found live — 10.0.0.1, 10.0.0.4, 10.0.0.5, 10.0.0.19)*
 
-> 📸 **Screenshot:** `screenshots/task4-live-hosts-panel.png`
->
-> *(Insert screenshot of the Zenmap Hosts panel on the left showing all discovered live hosts listed)*
 
 ---
 
@@ -156,10 +132,9 @@ After the scan completed, Zenmap listed all live hosts in the **Hosts** panel on
 
 | # | IP Address |
 |---|---|
-| 1 | *(insert IP — e.g., 10.0.0.1)* |
-| 2 | *(insert IP — e.g., 10.0.0.2)* |
-| 3 | *(insert IP — e.g., 10.0.0.4)* |
-| 4 | *(insert IP — e.g., 10.0.0.5)* |
+| 1 | *(10.0.0.1)* |
+| 2 | *(10.0.0.10)* |
+| 3 | *(10.0.0.2)* |
 
 All IP addresses were identified directly from the Zenmap Hosts panel and the Nmap Output tab.
 
@@ -172,21 +147,7 @@ MAC addresses were found in the Nmap Output tab for each host. The local machine
 ```cmd
 ipconfig /all
 ```
-
-| # | IP Address | MAC Address | Vendor |
-|---|---|---|---|
-| 1 | *(insert IP)* | *(insert MAC, e.g., 00:50:56:E3:B3:2C)* | *(e.g., VMware)* |
-| 2 | *(insert IP)* | *(insert MAC, e.g., 00:0C:29:C0:94:8F)* | *(e.g., VMware)* |
-| 3 | *(insert IP)* | *(insert MAC, e.g., 00:50:56:E9:64:82)* | *(e.g., VMware)* |
-| 4 | *(insert IP — local PC)* | *(insert MAC from ipconfig /all)* | *(local NIC vendor)* |
-
-> 📸 **Screenshot:** `screenshots/task6-nmap-output-mac-addresses.png`
->
-> *(Insert screenshot of the Nmap Output tab clearly showing the MAC Address lines for each discovered host)*
-
-> 📸 **Screenshot:** `screenshots/task6-ipconfig-all-mac.png`
->
-> *(Insert screenshot of ipconfig /all in CMD showing the physical/MAC address of your local network adapter)*
+<img width="671" height="199" alt="Screenshot-Zenmap-mac" src="https://github.com/user-attachments/assets/a8ac81b0-12df-4fc5-9ed8-69cb2261f6a2" />
 
 ---
 
@@ -198,19 +159,9 @@ ipconfig /all
 4. Clicked **Save Graphic**, set the filename to `pdf`, selected save location as **Desktop**, and chose **PDF** from the file type dropdown.
 5. Clicked **OK** — the topology PDF was saved to the desktop.
 
-> 📸 **Screenshot:** `screenshots/task7-zenmap-topology-view.png`
->
-> *(Insert screenshot of the Zenmap Topology tab showing the network map with the legend panel open on the left)*
 
-> 📸 **Screenshot:** `screenshots/task7-save-topology-pdf-dialog.png`
->
-> *(Insert screenshot of the "Save Topology" dialog box with PDF selected from the file type dropdown)*
+<img width="1897" height="1015" alt="Screenshot-Zenmap-2" src="https://github.com/user-attachments/assets/b0c35ee9-ae33-49a2-ac45-8b8c269efb89" />
 
-> 📸 **Screenshot:** `screenshots/task7-topology-pdf-on-desktop.png`
->
-> *(Insert screenshot of your Windows desktop showing the saved topology PDF file icon)*
-
-The saved topology PDF is included in this repository: `topology/network-topology.pdf`
 
 ---
 
@@ -265,6 +216,6 @@ All scanning in this module was performed exclusively on the tester's own local 
 
 ## 👤 Author
 
-**Emmanuel Bafi**
+**Bithin Krishna Radhakrishnan**
 Cybersecurity Intern — Batch B082
 Networkwalks Cybersecurity Program | Week 2 | Project Module 5
