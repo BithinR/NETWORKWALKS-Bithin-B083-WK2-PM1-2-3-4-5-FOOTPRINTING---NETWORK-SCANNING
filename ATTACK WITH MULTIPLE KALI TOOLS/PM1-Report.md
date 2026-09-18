@@ -37,7 +37,7 @@ Reconnaissance is the first step in any real penetration test. Every piece of da
 
 ## 🛡️ Authorization
 
-This reconnaissance was performed under the Networkwalks Cybersecurity Internship Letter of Authorization (Ref: NW-LOA-B082-017), valid from 17 August 2026 to 24 August 2026. The target `networkwalks.com` is explicitly listed in scope for passive footprinting activities.
+This reconnaissance was performed under the Networkwalks Cybersecurity Internship Letter of Authorization (Ref: NW-LOA-B082-017), valid from 11 September 2026 to 18 September 2026. The target `networkwalks.com` is explicitly listed in scope for passive footprinting activities.
 
 ---
 
