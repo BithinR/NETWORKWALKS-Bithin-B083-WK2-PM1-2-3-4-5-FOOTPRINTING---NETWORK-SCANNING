@@ -33,7 +33,7 @@ In this module, Maltego was installed on a Windows computer, configured with a f
 
 ## 🛡️ Authorization
 
-This reconnaissance was performed under the Networkwalks Cybersecurity Internship Letter of Authorization (Ref: NW-LOA-B082-017), valid 17–24 August 2026. The target `networkwalks.com` is explicitly authorized for passive footprinting.
+This reconnaissance was performed under the Networkwalks Cybersecurity Internship Letter of Authorization (Ref: NW-LOA-B082-017), valid 11 - 18 September 2026. The target `networkwalks.com` is explicitly authorized for passive footprinting.
 
 ---
 
